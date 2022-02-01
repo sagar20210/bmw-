@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+
+}
+.menu{
+    text-align: left;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu ul li {
+margin: 25px;
+position: relative;
+
+}
+.menu ul li a{
+    padding: 8px;
+    color: yellow;
+    font-size: 30px;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 20px;
+    position: relative;
+
+
+}
+.search{
+    top: 24px;
+    right: 20px;
+    position: absolute;
+    margin: 8px;
+    /* border: 2px solid yellow; */
+    
+}
+.search input{
+    font-size: 25px;
+    border: 1px solid #fff;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+
+}
+.content h2{
+font-size: 60px;
+color: #fff;
+margin-left: 8%;
+margin-top: 4%;
+text-align: left;
+/* text-shadow: 14px 14px 14px#fff; */
+}
+.content b{
+   color: yellow;
+   font-size: 100px; 
+}
+.content p{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+    color: #fff;
+
+}
+.photo{
+    width: 70%;
+    float: right;
+    
+
+}
+.photo img{
+    width: 80%;
+    margin-top: -220px;
+    margin-left: 50px;
+    border-radius: 30%;
+}
+.icon{
+    right: 72px;
+    bottom: 45px;
+    position: absolute;
+}
+.icon ul i{
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+}
+.icon ul a i{
+font-size: 20px;
+color: #fff;
+border: 3px solid yellow;
+border-radius: 50%;
+display: block;
+text-decoration: none;
+padding: 10px;
+}
+.button{
+   position:absolute;
+   top: 80%;
+   left: 15%;
+   transform: translate(-50%,-50%); 
+}
+.btn{
+    border: 3px solid yellow;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+color: #fff;
+}
+.contact h2:hover{
+    text-shadow: 14px 14px 14px#fff;
+}
+.btn:hover{
+    background: #ffa500;
+}
+.content h2:hover{
+    text-shadow: 14px 14px 14px #fff;
+}
+.icon ul a i:hover{
+    background: #ffa500;
+}
